@@ -6,7 +6,6 @@ import Router from 'next/router';
 import Layout from '../../components/Layout';
 import { encrypt } from '../../utils/crypto';
 import FileModel from '../../models/File';
-import FileManager from '../../models/FileManager';
 
 const shortid = require('shortid');
 
